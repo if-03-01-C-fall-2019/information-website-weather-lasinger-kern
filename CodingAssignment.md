@@ -1,4 +1,4 @@
-# IF.03.01 Basic Web Technique Winter 2017
+# IF.03.01 Basic Web Technique
 
 ## Objective
 The goal of this assignment is to practice all concepts of html and css we have done so far.
