@@ -4,24 +4,24 @@
 }
 
 body {
+	margin: 0px;
+	padding: 0px;
 	line-height: 0.9;
-	/* background-image: url("Images/Sky.jpg"); */
 	background-image: linear-gradient(deepskyblue, lightblue);
 	background-size: cover;
 	font-family: Arial, sans-serif;
-	padding-left: 25px;
 }
 
 nav {
 	overflow: auto;
-	background-color: black;
+	background-color: #202020;
 	top: 0;
 	width: 100%;
 	display: block;
+	position: fixed;
 }
 
 nav a {
-	text-align: center;
 	padding: 15px 18px;
 	text-decoration: none;
 	color: white;
@@ -33,14 +33,17 @@ a:hover {
 		background-color: #555;
 }
 
-body > h2 {
-	text-align: center;
+h2 {
 	line-height: 0.5;
-	font-size: 90%;
+	font-size: 130%;
+	margin-left: 1%;
+}
+
+header h2, h1 {
+	text-align: center;
 }
 
 h1 {
-	text-align: center;
 	font-size: 300%;
 	font-family: "Snowy";
 }
