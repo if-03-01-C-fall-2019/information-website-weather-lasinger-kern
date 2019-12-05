@@ -22,15 +22,15 @@ nav {
 }
 
 nav a {
-	padding: 15px 18px;
+	padding: 18px 18px;
 	text-decoration: none;
 	color: white;
-	font-size: 120%;
+	font-size: 125%;
 	float: left;
 }
 
 a:hover {
-		background-color: #555;
+	background-color: #555;
 }
 
 h2 {
@@ -55,8 +55,17 @@ ul {
 img {
 	width: 500px;
 	length: 5000px;
+	margin-left: 1%;
 }
 
 section > a {
 	font-size: 175%;
+}
+
+p {
+	margin-left: 1%;
+}
+
+ul li {
+	margin-left: 1%;
 }
