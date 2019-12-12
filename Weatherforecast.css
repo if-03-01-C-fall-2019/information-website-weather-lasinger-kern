@@ -8,7 +8,7 @@ body {
 h1 {
   text-align: center;
 }
-h5 ~ p{
+h4 ~ p{
   padding-left: 30px;
 }
 q {
