@@ -11,7 +11,7 @@ body {
 	background-size: cover;
 	font-family: Arial, sans-serif;
 }
-
+/*region: navigation bar*/
 nav {
 	overflow: auto;
 	background-color: #202020;
@@ -20,7 +20,6 @@ nav {
 	display: block;
 	position: fixed;
 }
-
 nav a {
 	padding: 18px 18px;
 	text-decoration: none;
@@ -28,44 +27,36 @@ nav a {
 	font-size: 125%;
 	float: left;
 }
-
 a:hover {
 	background-color: #555;
 }
-
+/*endregion*/
+header h2, h1 {
+	text-align: center;
+}
+h1 {
+	font-size: 300%;
+	font-family: "Snowy";
+}
 h2 {
 	line-height: 0.5;
 	font-size: 130%;
 	margin-left: 1%;
 }
-
-header h2, h1 {
-	text-align: center;
-}
-
-h1 {
-	font-size: 300%;
-	font-family: "Snowy";
-}
-
 ul {
 	line-height: 2;
 }
-
+ul li {
+	margin-left: 1%;
+}
 img {
 	width: 500px;
 	length: 5000px;
 	margin-left: 1%;
 }
-
 section > a {
 	font-size: 175%;
 }
-
 p {
-	margin-left: 1%;
-}
-
-ul li {
 	margin-left: 1%;
 }
