@@ -31,18 +31,20 @@ a:hover {
 	background-color: #555;
 }
 /*endregion*/
-header {
+
+/*region: headlines*/
+.headline {
 	text-align: center;
-}
-header h1 {
 	font-size: 300%;
 	font-family: "Snowy";
 }
-header h2 {
+.sub-headline {
 	line-height: 0.5;
 	font-size: 130%;
 	margin-left: 1%;
+	text-align: center;
 }
+/*endregion*/
 ul {
 	line-height: 2;
 }
@@ -57,14 +59,20 @@ img {
 section > a {
 	font-size: 175%;
 }
-ul li, p, h2 {
+ul li, p, h2, h3, h4 {
 	margin-left: 1%;
-}
-h1.headline {
-	text-align: center;
 }
 a.current-page {
 	background-color: deepskyblue;
 	color: black;
 	font-weight: bold;
+}
+q {
+  padding-left: 70px;
+  font-style: italic;
+}
+blockquote {
+  padding-left: 30px;
+  font-style: italic;
+  line-height: 1.2;
 }
