@@ -7,7 +7,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	line-height: 0.9;
-	background-image: linear-gradient(deepskyblue, lightblue);
+	background-image: linear-gradient(to bottom, deepskyblue, lightblue);
 	background-size: cover;
 	font-family: Arial, sans-serif;
 }
@@ -48,12 +48,8 @@ a:hover {
 ul {
 	line-height: 2;
 }
-ul li {
-	margin-left: 1%;
-}
 img {
 	width: 500px;
-	length: 5000px;
 	margin-left: 1%;
 }
 section > a {
