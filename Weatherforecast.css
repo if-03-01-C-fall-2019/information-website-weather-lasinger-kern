@@ -11,12 +11,3 @@ h1 {
 h4 ~ p{
   padding-left: 30px;
 }
-q {
-  padding-left: 70px;
-  font-style: italic;
-}
-blockquote {
-  padding-left: 30px;
-  font-style: italic;
-  line-height: 1.2;
-}
