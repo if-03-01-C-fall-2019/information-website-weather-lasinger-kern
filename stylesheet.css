@@ -73,5 +73,11 @@ blockquote {
   line-height: 1.2;
 }
 p {
-	line-height: 1;
+	line-height: 2;
+}
+dt {
+	line-height: 2;
+}
+dd {
+	line-height: 1.5;
 }
