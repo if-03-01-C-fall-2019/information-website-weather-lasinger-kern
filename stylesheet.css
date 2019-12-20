@@ -8,7 +8,6 @@ body {
 	padding: 0px;
 	line-height: 0.9;
 	background-image: linear-gradient(to bottom, deepskyblue, lightblue);
-	background-size: cover;
 	font-family: Arial, sans-serif;
 }
 /*region: navigation bar*/
@@ -45,17 +44,13 @@ a:hover {
 	text-align: center;
 }
 /*endregion*/
-ul {
-	line-height: 2;
-}
 img {
 	width: 500px;
-	margin-left: 1%;
 }
 section > a {
 	font-size: 175%;
 }
-ul li, p, h2, h3, h4 {
+img, ul li, p, h2, h3, h4 {
 	margin-left: 1%;
 }
 a.current-page {
@@ -72,15 +67,9 @@ blockquote {
   font-style: italic;
   line-height: 1.2;
 }
-p {
-	line-height: 2;
-}
-dt {
+ul, p, dt, ol {
 	line-height: 2;
 }
 dd {
 	line-height: 1.5;
-}
-ol {
-	line-height: 2;
 }
