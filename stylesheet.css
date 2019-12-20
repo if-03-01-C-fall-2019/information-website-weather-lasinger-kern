@@ -72,3 +72,6 @@ blockquote {
   font-style: italic;
   line-height: 1.2;
 }
+p {
+	line-height: 1;
+}
