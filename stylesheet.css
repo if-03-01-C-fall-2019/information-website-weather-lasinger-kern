@@ -36,12 +36,14 @@ a:hover {
 	text-align: center;
 	font-size: 300%;
 	font-family: "Snowy";
+	padding-top: 40px;
 }
 .sub-headline {
 	line-height: 0.5;
 	font-size: 130%;
 	margin-left: 1%;
 	text-align: center;
+	padding-bottom: 35px;
 }
 /*endregion*/
 img {
@@ -72,4 +74,7 @@ ul, p, dt, ol {
 }
 dd {
 	line-height: 1.5;
+}
+#linear-gradient-problem-solver {
+ padding-bottom: 65px;
 }
