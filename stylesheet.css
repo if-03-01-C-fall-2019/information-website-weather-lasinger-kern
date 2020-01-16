@@ -2,7 +2,6 @@
 	font-family: 'Snowy';
 	src:url("CSS/Fonts/Snowy/CFSnowBall-Regular.ttf") format("truetype");
 }
-
 body {
 	margin: 0px;
 	padding: 0px;
@@ -38,10 +37,6 @@ a:hover {
 		font-family: "Snowy";
 		padding-top: 72px;
 		padding-bottom: 40px;
-		border-style: solid;
-		border-radius: 25px;
-		border-spacing: 10px;
-		padding-right: 0px;
 }
 .headline {
 	text-align: center;
